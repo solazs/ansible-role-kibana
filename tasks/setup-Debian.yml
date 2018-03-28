@@ -4,7 +4,7 @@
 
 - name: Add Elasticsearch apt key.
   apt_key:
-    url: https://packages.elastic.co/GPG-KEY-elasticsearch
+    url: https://artifacts.elastic.co/GPG-KEY-elasticsearch
     state: present
 
 - name: Add Kibana repository.
